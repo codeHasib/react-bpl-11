@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "rating": 98,
+    "price": 1200000,
+    "image": "https://picsum.photos/seed/kohli/300/300"
+  },
+  {
+    "id": 2,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "rating": 96,
+    "price": 1100000,
+    "image": "https://picsum.photos/seed/babar/300/300"
+  },
+  {
+    "id": 3,
+    "name": "Joe Root",
+    "country": "England",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "rating": 94,
+    "price": 1050000,
+    "image": "https://picsum.photos/seed/root/300/300"
+  },
+  {
+    "id": 4,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "rating": 93,
+    "price": 1000000,
+    "image": "https://picsum.photos/seed/williamson/300/300"
+  },
+  {
+    "id": 5,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "rating": 95,
+    "price": 1080000,
+    "image": "https://picsum.photos/seed/smith/300/300"
+  },
+  {
+    "id": 6,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "rating": 92,
+    "price": 1150000,
+    "image": "https://picsum.photos/seed/stokes/300/300"
+  },
+  {
+    "id": 7,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "rating": 91,
+    "price": 950000,
+    "image": "https://picsum.photos/seed/shakib/300/300"
+  },
+  {
+    "id": 8,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "rating": 90,
+    "price": 980000,
+    "image": "https://picsum.photos/seed/bumrah/300/300"
+  },
+  {
+    "id": 9,
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "role": "Bowler",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast",
+    "rating": 89,
+    "price": 970000,
+    "image": "https://picsum.photos/seed/starc/300/300"
+  },
+  {
+    "id": 10,
+    "name": "Jos Buttler",
+    "country": "England",
+    "role": "Wicketkeeper-Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "rating": 93,
+    "price": 1020000,
+    "image": "https://picsum.photos/seed/buttler/300/300"
+  }
+]
