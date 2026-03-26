@@ -1,7 +1,13 @@
 import React, { use } from "react";
 import Card from "./Card";
+import CardTab from "./CardTab";
 
-const CardParent = ({ players, selectedTab }) => {
+const CardParent = ({
+  players,
+  selectedTab,
+  selectedPlayer,
+  selectedPlayers,
+}) => {
   const res = use(players);
   const data = res.data;
   return (
@@ -18,8 +24,11 @@ const CardParent = ({ players, selectedTab }) => {
             bowlingStyle={player.bowlingStyle}
             battingStyle={player.battingStyle}
             price={player.price}
+            selectedPlayer={selectedPlayer}
           ></Card>
         ))
+      ) : selectedPlayers.length > 0 ? (
+        selectedPlayers.map((players, index) => <CardTab key={index} name={players.name} country={players.country} position={players.position}></CardTab>)
       ) : (
         <h2>nothing to show</h2>
       )}
