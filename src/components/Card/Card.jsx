@@ -1,6 +1,7 @@
 import React from "react";
 
 const Card = ({
+  id,
   img,
   name,
   country,
@@ -9,8 +10,14 @@ const Card = ({
   battingStyle,
   bowlingStyle,
   price,
-  selectedPlayer
+  selectedPlayer,
+  isSelected
 }) => {
+  
+
+  function buttonFunc() {
+    selectedPlayer(id, name, position, country, price);
+  }
 
   return (
     <div className="p-4 border rounded-2xl">
@@ -31,11 +38,8 @@ const Card = ({
         </div>
         <div className="flex justify-between items-center">
           <h2>Price: ${price}</h2>
-          <button
-            onClick={() => selectedPlayer(name, position, country)}
-            className="btn"
-          >
-            Choose Player
+          <button disabled={isSelected} onClick={buttonFunc} className="btn">
+            {isSelected ? "Selected" : "Choose Players"}
           </button>
         </div>
       </div>

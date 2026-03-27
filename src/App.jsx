@@ -5,29 +5,18 @@ import Tab from "./components/Tab/Tab";
 import Card from "./components/Card/Card";
 import { Suspense, useState } from "react";
 import CardParent from "./components/Card/CardParent";
+import { ToastContainer } from "react-toastify";
 
-let coins = 15000;
 const players = axios.get("/public/players.json");
-const selectedPlayers = [];
 
 function App() {
+  const [coins, setCoins] = useState(50000);
   const [selectedTab, setSelectedTab] = useState("available");
 
   // Tab Function
   function toggleTab(e) {
     const value = e.target.value;
     setSelectedTab(value);
-  }
-
-  // choose player function
-  function selectedPlayer(name, position, country) {
-    const obj = {
-      name: name,
-      position: position,
-      country: country,
-    };
-    selectedPlayers.push(obj);
-    console.log(selectedPlayers);
   }
 
   return (
@@ -37,12 +26,14 @@ function App() {
       <Tab toggleTab={toggleTab} selectedTab={selectedTab}></Tab>
       <Suspense fallback={<p>Loading...</p>}>
         <CardParent
-          selectedPlayer={selectedPlayer}
           selectedTab={selectedTab}
           players={players}
-          selectedPlayers={selectedPlayers}
+          setCoins={setCoins}
+          coins={coins}
         ></CardParent>
       </Suspense>
+
+      <ToastContainer></ToastContainer>
     </>
   );
 }

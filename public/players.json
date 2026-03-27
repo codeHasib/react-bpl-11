@@ -7,7 +7,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
     "rating": 98,
-    "price": 1200000,
+    "price": 500,
     "image": "https://picsum.photos/seed/kohli/300/300"
   },
   {
@@ -18,7 +18,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
     "rating": 96,
-    "price": 1100000,
+    "price": 5500,
     "image": "https://picsum.photos/seed/babar/300/300"
   },
   {
@@ -29,7 +29,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
     "rating": 94,
-    "price": 1050000,
+    "price": 5000,
     "image": "https://picsum.photos/seed/root/300/300"
   },
   {
@@ -40,7 +40,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
     "rating": 93,
-    "price": 1000000,
+    "price": 5500,
     "image": "https://picsum.photos/seed/williamson/300/300"
   },
   {
@@ -51,7 +51,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak",
     "rating": 95,
-    "price": 1080000,
+    "price": 5000,
     "image": "https://picsum.photos/seed/smith/300/300"
   },
   {
@@ -62,7 +62,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
     "rating": 92,
-    "price": 1150000,
+    "price": 5000,
     "image": "https://picsum.photos/seed/stokes/300/300"
   },
   {
@@ -73,7 +73,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Slow left-arm orthodox",
     "rating": 91,
-    "price": 950000,
+    "price": 4500,
     "image": "https://picsum.photos/seed/shakib/300/300"
   },
   {
@@ -84,7 +84,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
     "rating": 90,
-    "price": 980000,
+    "price": 3500,
     "image": "https://picsum.photos/seed/bumrah/300/300"
   },
   {
@@ -95,7 +95,7 @@
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm fast",
     "rating": 89,
-    "price": 970000,
+    "price": 2500,
     "image": "https://picsum.photos/seed/starc/300/300"
   },
   {
@@ -106,7 +106,7 @@
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "None",
     "rating": 93,
-    "price": 1020000,
+    "price": 1500,
     "image": "https://picsum.photos/seed/buttler/300/300"
   }
 ]
