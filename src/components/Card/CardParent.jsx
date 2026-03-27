@@ -16,16 +16,27 @@ const CardParent = ({ players, selectedTab, setCoins, coins }) => {
       name: name,
       position: position,
       country: country,
+      price: price,
     };
     setSelectedPlayers((prev) => [...prev, obj]);
     let newCoins = coins - price;
     console.log(newCoins);
-    if(newCoins > 0) {
+    if (newCoins > 0) {
       setCoins(newCoins);
-      toast.success("Successfully added player");
+      toast.success(`Successfully added ${name}`);
     } else {
-      toast.warn("Insufficient coins")
+      toast.warn("Insufficient coins");
     }
+  }
+
+  // delete player from selected
+  function deletePlayer(id, price) {
+    const filtered = selectedPlayers.filter((p) => p.id !== id);
+    setSelectedPlayers(filtered);
+    console.log(price);
+    let newCoins = coins + price;
+    setCoins(newCoins);
+    toast.success("Player Deleted Successfully");
   }
 
   return (
@@ -54,6 +65,9 @@ const CardParent = ({ players, selectedTab, setCoins, coins }) => {
             name={players.name}
             country={players.country}
             position={players.position}
+            id={players.id}
+            price={players.price}
+            deletePlayer={deletePlayer}
           ></CardTab>
         ))
       ) : (
